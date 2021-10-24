@@ -3,7 +3,7 @@ import Accordion from 'react-bootstrap/Accordion'
 
 const FAQ = () => (
     <Accordion className="my-3 my-md-5">
-        <h1 class="text-center mb-4">Frequently Asked Questions</h1>
+        <h1 className="text-center mb-4">Frequently Asked Questions</h1>
         <Accordion.Item eventKey="0">
             <Accordion.Header>When can I mint an Octo Raider?</Accordion.Header>
             <Accordion.Body>
