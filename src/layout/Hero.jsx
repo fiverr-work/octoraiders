@@ -15,7 +15,7 @@ const Hero = () => (
                     </p>
                 <ul className="list-inline">
                     <li className="list-inline-item" data-bss-hover-animate="wobble">
-                        <a href="#">
+                        <a href="https://discord.com">
                             <img alt="" className="social-img me-2" src={discord}/>
                         </a>
                     </li>

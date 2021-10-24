@@ -4,7 +4,7 @@ const Footer = () => (
     <footer className="pb-3">
         <div className="row">
             <div className="col-md-8 col-lg-7 col-xl-6 text-center text-sm-center text-md-start text-lg-start text-xl-start text-xxl-start mb-3 mb-lg-0">
-                <a className="navbar-brand bradnname" href="#">
+                <a className="navbar-brand bradnname" href="#root">
                     <img alt="" className="logo-img me-3" src={back5}/>
                     OctoRaiders
                 </a>

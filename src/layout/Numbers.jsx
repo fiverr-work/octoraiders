@@ -1,4 +1,5 @@
 import back2 from "../img/back2.png"
+import Button from '../components/Button'
 
 const Numbers = () => (
     <section className="pt-3 mt-3 pt-md-5 mt-md-5">
@@ -13,7 +14,8 @@ const Numbers = () => (
                     <h2 className="mb-0">70+</h2>
                     <h5>Unique Attributes</h5>
                     <h2 className="mb-0">0.88 SOL</h2>
-                    <h5>Each Octo Raider</h5><a className="eightbit-btn mt-4" href="#">Mint</a>
+                    <h5 className="mb-4">Each Octo Raider</h5>
+                    <Button text="Mint"/>
                 </div>
             </div>
         </div>
