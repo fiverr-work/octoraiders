@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/Arcadepix.css';
+import './css/Faq-by-pomdre.css';
+import './css/styles.css';
+
+import Navbar from './layout/Navbar'
+import Hero from './layout/Hero'
+import Numbers from './layout/Numbers'
+import Cards from './layout/Cards'
+import Roadmap from './layout/Roadmap'
+import Raiders from './layout/Raiders'
+import Attributes from './layout/Attributes'
+import FAQ from './layout/FAQ'
+import Footer from './layout/Footer'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+    <Navbar />
+    <Hero />
+    <Numbers />
+    <Cards />
+    <Roadmap />
+    <Raiders />
+    <Attributes />
+    <FAQ />
+    <Footer />
+   </>
   );
 }
 

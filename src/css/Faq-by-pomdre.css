@@ -1,0 +1,97 @@
+.accordion{
+  color: white;
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(89, 193, 53);
+  border-image: initial;
+  border-radius: 12px;
+  padding: 35px;
+}
+.accordion-item, .accordion-header, .accordion-body{
+  all: revert
+}
+.accordion-item{
+}
+.accordion-header{
+  margin: 0;
+}
+.accordion-button{
+  box-shadow: none !important;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  padding: 18px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  outline: none;
+  transition: all 0.4s ease 0s;
+}
+.accordion-button:not(.collapsed){
+  color: #00C900;
+  background: none;
+}
+.accordion-button::after{
+  content: '\002B';
+  background: none;
+  transform: none;
+}
+.accordion-button:not(.collapsed)::after{
+  content: '\2212';
+  background: none;
+  transform: none;
+}
+.accordion-button:hover {
+  background-color: transparent;
+  color: #00C900;
+}
+.accordion-body{
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-bottom: 16px;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: transparent;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  color: white;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+}
+
+.btn-primary:hover {
+  color: rgb(99,133,205);
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+

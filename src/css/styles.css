@@ -1,0 +1,152 @@
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #00C900;
+}
+
+::selection {
+  color: white;
+  background: #00C900;
+}
+
+body {
+  background-color: #000000;
+  color: white;
+  font-family: 'Arcadepix';
+  cursor: url(../img/pointer.png), auto;
+}
+
+.eightbit-btn , .btn , a{
+  cursor:url(../img/pointer-clicked.png), auto !important;
+}
+
+@media (min-width: 576px) {
+  .logo-img {
+    width: 90px;
+  }
+}
+
+@media (max-width: 575px) {
+  .logo-img {
+    width: 65px;
+  }
+}
+
+@media (min-width: 576px) {
+  .eightbit-btn {
+    background: #00C900;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 5px 40px !important;
+    text-decoration: none;
+    color: rgb(255,255,255) !important;
+    box-shadow: inset -4px -4px 0px 0px #4aa52e;
+  }
+}
+
+@media (max-width: 575px) {
+  .eightbit-btn {
+    background: #00C900;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 2px 19px !important;
+    text-decoration: none;
+    color: rgb(255,255,255) !important;
+    box-shadow: inset -5px -4px 0px 0px #4aa52e;
+  }
+}
+
+.eightbit-btn:hover, .eightbit-btn:focus {
+  background: #76c442;
+  box-shadow: inset -6px -6px 0px 0px #4aa52e;
+}
+
+.eightbit-btn:active {
+  box-shadow: inset 4px 4px 0px 0px #4aa52e;
+}
+
+.eightbit-btn:before, .eightbit-btn:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: content-box;
+}
+
+.eightbit-btn:before {
+  top: -6px;
+  left: 0;
+  border-top: 6px rgb(70,237,0) solid;
+  border-bottom: 6px rgb(1,141,77) solid;
+}
+
+.eightbit-btn:after {
+  left: -6px;
+  top: 0;
+  border-left: 6px rgb(70,237,0) solid;
+  border-right: 6px rgb(70,237,0) solid;
+}
+
+@media (min-width: 576px) {
+  .bradnname {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  .bradnname {
+    font-size: 30px;
+  }
+}
+
+.social-img {
+  width: 60px;
+}
+
+.hero-paragraph {
+  color: #C3C3C3;
+}
+
+.green-text {
+  color: #00c900;
+}
+
+@media (min-width: 576px) {
+  .state-box {
+    border: 3px solid #59C135;
+    border-radius: 12px;
+    color: white;
+    padding: 35px;
+  }
+}
+
+@media (max-width: 575px) {
+  .state-box {
+    border: 3px solid #59C135;
+    border-radius: 12px;
+    color: white;
+    padding: 15px;
+  }
+}
+
+.grenn-box {
+  background: #59C135;
+  color: white;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+.speaker-btn {
+  width: 40px;
+  margin-left: 30px;
+  cursor:url(../img/pointer-clicked.png), auto !important;
+}

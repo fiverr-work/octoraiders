@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Arcadepix';
+	src: url(../fonts/Arcadepix.woff2) format('woff2'),
+	url(../fonts/Arcadepix.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
