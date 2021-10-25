@@ -14,11 +14,8 @@ const Navbar = () => (
                 </div>
             <div className="col-12 col-md-4 col-lg-5 col-xl-6 align-self-center">
                 <ul className="list-inline text-center text-sm-center text-md-end text-lg-end text-xl-end text-xxl-end mb-0">
-                    <li className="list-inline-item me-md-0 me-5 mb-4 mb-lg-auto me-lg-5">
-                        <Button text="Mint"/>
-                    </li>
                     <li className="list-inline-item">
-                        <Button text="Connect"/>
+                        <Button text="Mint"/>
                     </li>
                     <li className="list-inline-item">
                         <Player url={audioSrc}/>
